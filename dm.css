@@ -1,0 +1,37 @@
+
+/* style div people  */
+#people {
+	text-align: center; /* centrer les elements*/
+	background-color: #dbdbdb; /* arriere plan gris clair */
+	margin: 1%;
+}
+
+
+/* style div personne, flottant, block sur ligne ... */
+.person {
+	display: inline-block;
+	width: 40px;
+	height: 50px;
+	margin: 12px;
+	padding: 8px;
+	background: yellow;
+}
+
+/* résolution de l'image personne */
+.person img {
+	width: 100%;
+	height: 100%;
+}
+
+/* styles de bloc container */
+.container {
+	text-align: center; /* centrer les elements*/
+}
+/* styles des blocs developpement, design et marketing */
+.container>div {
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+	text-align: center; /* centrer les elements*/
+	background-color: #dbdbdb; /* arriere plan gris clair */
+}
